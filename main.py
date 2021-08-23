@@ -105,13 +105,6 @@ def delete_cafe(cafe_id):
             return jsonify(error={"Not Found": "Sorry a cafe with that id was not found in the database."}), 404
     else:
         return jsonify(response={"error": "authentication failed"}), 403
-## HTTP GET - Read Record
-
-## HTTP POST - Create Record
-
-## HTTP PUT/PATCH - Update Record
-
-## HTTP DELETE - Delete Record
 
 
 if __name__ == '__main__':
